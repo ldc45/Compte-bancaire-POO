@@ -1,4 +1,10 @@
 class Compte{
+
+     /**
+     * Création du compte
+     * @param {Titulaire} titulaire Titulaire du compte
+     * @param {number} montant Montant de départ
+     */
     
     constructor(titulaire,montant=0){
         this.titulaire = titulaire; 

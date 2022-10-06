@@ -20,6 +20,18 @@ console.log(compte1);
 compte1.debiter(20);
 compte1.affichersolde();
 
-let compteEpargne = new CompteEpargne(titulaire2, 15);
+let compteEpargne = new CompteEpargne(titulaire2, 10);
 
 console.log(compteEpargne);
+
+compteEpargne.crediter(30);
+compteEpargne.crediter(40);
+compteEpargne.crediter(20);
+
+
+console.log(compteEpargne);
+compteEpargne.debiter(20);
+console.log(compteEpargne);
+
+compteEpargne.affichersolde();
+
