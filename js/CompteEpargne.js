@@ -7,8 +7,5 @@ class CompteEpargne extends Compte {
         this.rythme = rythme;
     }
     // Intérêts de taux toutes les "rythme =5000ms"
-setInterval(() => {
-    this.soldes *= 1+this.taux
-}, this.rythme);
 
 }
